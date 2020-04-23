@@ -1,0 +1,152 @@
+
+body {
+	background: #393E3C;
+	margin: 0px
+        
+}
+/* scrollbar uchun*/
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}
+/* scrollbar ohiri*/
+marquee{
+	padding: 0px;
+	font-size: 25px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-left: 25px;
+	margin-right: 25px;
+	background: blueviolet;
+	opacity: 0.7;
+	border-radius: 15px;
+    color:white;
+}
+.header {
+	background: #FFFFFF;
+	border-radius: 15px;
+	width: auto;
+	height: 100px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+	padding: 5px;
+}
+.header_elements{
+	display: flex;
+    
+}
+.header_elements img {
+	height: 100px;
+	margin-left: 15px;
+	float: left;
+    
+}
+.links {
+	text-align: end;
+	position: inherit;
+	margin: auto;
+	float: right;
+	font-size: 30px;
+	margin-right: 25px;
+    
+}
+.link_active{
+	color: aliceblue;
+}
+.links a{
+	color: green;
+	text-decoration: none;
+}
+.service {
+	background: #FFFFFF;
+	border-radius: 15px;
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.subservice{
+    display: flex;
+    background: yellowgreen;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    padding: 25px;
+}
+
+
+.price {
+	background: white;
+	border-radius: 15px;
+	width: auto;
+	height: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+    display: flex;
+}
+.price_start {
+	background: #FFFFFF;
+	border-radius: 15px;
+	width: auto;
+	height: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.subprice{
+    margin: auto; 
+}
+.subprice table{
+    color: firebrick;
+    font-size: 25px;
+}
+.order {
+    margin: auto;
+    text-align: center;
+    background: green;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 35px;
+    color: yellow ;
+    padding-top: 10px;
+}
+.contact_us {
+	background: #FFFFFF;
+	border-radius: 15px;
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	margin-right: 25px;
+    display: flex;
+}
+.footer {
+	background: #8400D1;
+	border-radius: 15px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	width: auto;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: -50px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.footer_text {
+	display: flex;
+	float: right;
+	margin: 15px;
+	font-size: 15px;
+	color: aliceblue;
+}
